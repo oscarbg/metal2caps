@@ -25,7 +25,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
  MTLArgumentBuffersTier1
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 64
  
-	areProgrammableSamplePositionsSupported 1
+ areProgrammableSamplePositionsSupported 1
   1 samples: 1
  printing sample positions
   sample 0: (0.500000,0.500000)
@@ -49,10 +49,9 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
  maxThreadgroupMemoryLength 16384
 ````
 
-
 # Ipad Pro 10.5 (2017) A10X GPU
-```
 
+```
  Tessellation is supported on this device
  MTLArgumentBuffersTier1
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 64
@@ -84,9 +83,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
 ## Desktop GPUs (on hackintosh 10.13.2 beta 2)
 
 
-
 # AMD RX Vega 56
-
 
 ```
  Tessellation is supported on this device
