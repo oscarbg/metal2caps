@@ -65,8 +65,8 @@ Ipad Pro 10.5 (2017) A10X GPU
 Desktop GPUs (on hackintosh 10.13.2 beta 2)
 ============
 
-RX Vega 56
-==========
+AMD RX Vega 56
+==============
 
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
@@ -104,8 +104,8 @@ RX Vega 56
  currentAllocatedSize 0
  maxThreadgroupMemoryLength 32768
 
-Geforce GTX 970 (Maxwell arch) 
-===============
+Nvidia Geforce GTX 970 (Maxwell arch) 
+======================
 
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
@@ -143,8 +143,8 @@ Geforce GTX 970 (Maxwell arch)
  currentAllocatedSize 123736064
  maxThreadgroupMemoryLength 49152
 
-Intel HD 530 (Skylake GPU gen9)
-============
+Intel HD Graphics 530 (Skylake GPU gen9)
+=====================
 
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
