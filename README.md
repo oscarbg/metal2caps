@@ -4,8 +4,7 @@ Metal 2 optional features reports of different GPUs (note I also include tessela
 
 These are captured using some lame modifications to a Metal2 Apple sample app so I don't post code right now..
 
-For GPU gens in Apple SOCs I report first Metal supported GPU Apple A7 and also A10X GPU..
-
+For GPU gens in Apple SOCs I report first Metal supported GPU Apple A7 and also A10X GPU..</br>
 interesting would be to check on A11 GPUs which should report improved Metal features at least areRasterOrderGroupsSupported should be 1 here..
 
 I include for desktop reports of GPUs off all the three different existing GPU vendors today..
