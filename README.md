@@ -23,7 +23,7 @@ Raster Order Groups are supported right now only on desktop Intel IGPUs (well an
 also Nvidia Maxwell HW arch should support it so seems a driver limitation..
 ThreadgroupMemory is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
 
-**Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for and raster order groups..**
+**Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for programmable sample positions and raster order groups..**
 
 
 ## Apple GPUs
