@@ -7,16 +7,17 @@ These are captured using some lame modifications to a Metal2 Apple sample app so
 For GPU gens in Apple SOCs I report first Metal supported GPU Apple A7 and also A10X GPU..</br>
 interesting would be to check on A11 GPUs which should report improved Metal features at least areRasterOrderGroupsSupported should be 1 there..
 
-I include for desktop reports of GPUs off all the three different existing GPU vendors today..</br>
-note perhaps they aren't their last GPU arch incarnations like I have NV Maxwell GPU (not latest Pascal) and Intel HD530 Skylake (not latest KBL/CFL gen9.5 GPUs)..</br>
-anyway they are minor revision (graphics features wise) so I don't expect to report improved Metal 2 caps..
+I include for desktop, reports of GPUs off all the three different existing GPU vendors today..</br>
+note perhaps they aren't their last GPU arch incarnations as I have NV Maxwell GPU (not latest Pascal) and Intel HD530 Skylake (not latest KBL/CFL gen9.5 GPUs)..</br>
+anyway they are minor revision (graphics features wise) so I don't expect these new gens to report improved Metal 2 caps..
 
 Some comments of the report are:
+
 (so note all my comments regarding Apple SOCs are valid up to A10 SOCs)
 
 Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps..
 
--**Argument Buffers** All Apple GPUs support Tier1, while all desktop GPUs support Tier2..</br>
+-**Argument Buffers**: all Apple GPUs support Tier1, while all desktop GPUs support Tier2..</br>
 
 -**Programmable sample positions** are supported on all Apple GPUs and desktops expect Nvidia GPUs (perhaps Apple native Nvidia driver supports on Kepler? highly doubt Kepler HW was capable of it)..</br>
 
@@ -29,7 +30,6 @@ also Nvidia Maxwell HW arch should support it so seems a driver limitation..</br
 -**ThreadgroupMemory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
 
 **Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for programmable sample positions and raster order groups..**
-
 
 ## Apple GPUs
 
