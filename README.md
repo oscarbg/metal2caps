@@ -19,7 +19,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
 
 -**Argument Buffers**: all Apple GPUs support up to Tier1, while all desktop GPUs support up to Tier2..</br>
 
--**Programmable sample positions** are supported on all Apple GPUs and desktops expect Nvidia GPUs (perhaps Apple native Nvidia driver supports on Kepler?.. altough highly doubt Kepler HW was capable of it)..</br>
+-**Programmable sample positions** are supported on all Apple GPUs and desktops expect Nvidia GPUs.. of course Nvidia Maxwell GPUs support it in HW so it's a driver limitation.. perhaps Apple native Nvidia driver supports on Kepler GPUs?.. altough I highly doubt it.. Kepler HW wasn't capable of it(?)..</br>
 
 -**Read Write Textures** aren't supported on Apple SOCs, discrete desktop GPUs (NV&AMD) support up to Tier1 and Intel IGPUs up to Tier2..</br>
 
