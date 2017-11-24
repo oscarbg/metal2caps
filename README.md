@@ -1,5 +1,18 @@
 # metal2caps
-Metal 2 optional features reports of different GPUs..
+Metal 2 optional features reports of different GPUs (note I also include tesselation support also not a Metal 2 feature)..
+
+These are captured using some lame modifications to a Metal2 Apple sample app so I don't post code right now..
+
+For GPU gens in Apple SOCs I report first Metal supported GPU Apple A7 and also A10X GPU..
+interesting would be to check on A11 GPUs which should report improved Metal features at least areRasterOrderGroupsSupported should be 1 here..
+
+I include for desktop reports of GPUs off all the three different existing GPU vendors today..
+note perhaps they aren't their last GPU arch incarnations like I have NV Maxwell GPU (not latest Pascal) and Intel HD530 Skylake (not latest KBL/CFL gen9.5 GPUs)..
+anyway they are minor revision (graphics features wise) so I don't expect to report improved Metal 2 caps..
+
+Some comments of the report are:
+
+Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps..
 
 Ipad Air 1 (2013) A7 GPU
 ========================
@@ -57,9 +70,9 @@ Ipad Pro 10.5 (2017) A10X GPU
  removable 0
  MTLReadWriteTextureTierNone
  areRasterOrderGroupsSupported 0
-  registryID 4294967844
-  currentAllocatedSize 262144
-  maxThreadgroupMemoryLength 16384
+ registryID 4294967844
+ currentAllocatedSize 262144
+ maxThreadgroupMemoryLength 16384
 
   
 Desktop GPUs (on hackintosh 10.13.2 beta 2)
@@ -106,6 +119,8 @@ AMD RX Vega 56
 
 Nvidia Geforce GTX 970 (Maxwell arch) 
 ======================
+
+Using NV Web driver 378.10.10.10.20.107 patched for 10.13.2..
 
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
