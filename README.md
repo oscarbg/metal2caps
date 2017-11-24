@@ -16,17 +16,17 @@ Some comments of the report are:
 
 Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps..
 
--*Argument Buffers* All Apple GPUs support Tier1, while all desktop GPUs support Tier2..</br>
+-**Argument Buffers** All Apple GPUs support Tier1, while all desktop GPUs support Tier2..</br>
 
--*Programmable sample positions* are supported on all Apple GPUs and desktops expect Nvidia GPUs (perhaps Apple native Nvidia driver supports on Kepler? highly doubt Kepler HW was capable of it)..</br>
+-**Programmable sample positions** are supported on all Apple GPUs and desktops expect Nvidia GPUs (perhaps Apple native Nvidia driver supports on Kepler? highly doubt Kepler HW was capable of it)..</br>
 
--*Read Write Textures* aren't supported on Apple SOCs, discrete desktop GPUs (NV&AMD) support Tier1 and Intel IGPUs up to Tier2..</br>
+-**Read Write Textures** aren't supported on Apple SOCs, discrete desktop GPUs (NV&AMD) support Tier1 and Intel IGPUs up to Tier2..</br>
 
--*Raster Order Groups* are supported right now only on desktop Intel IGPUs (well and A11..) right now..</br>
+-**Raster Order Groups** are supported right now only on desktop Intel IGPUs (well and A11..) right now..</br>
 at WWDC Metal2 sessions was shared Vega GPUs should expose support for it.. although not yet in 10.13.2 betas..</br>
 also Nvidia Maxwell HW arch should support it so seems a driver limitation..</br>
 
--*ThreadgroupMemory* is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
+-**ThreadgroupMemory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
 
 **Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for programmable sample positions and raster order groups..**
 
