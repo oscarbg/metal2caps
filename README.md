@@ -45,7 +45,6 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
  MTLReadWriteTextureTierNone
  areRasterOrderGroupsSupported 0
  registryID 4294967735
- currentAllocatedSize 262144
  maxThreadgroupMemoryLength 16384
 ````
 
@@ -76,7 +75,6 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
  MTLReadWriteTextureTierNone
  areRasterOrderGroupsSupported 0
  registryID 4294967844
- currentAllocatedSize 262144
  maxThreadgroupMemoryLength 16384
 ```  
 
@@ -119,7 +117,6 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
  MTLReadWriteTextureTier1
  areRasterOrderGroupsSupported 0
  registryID 4294968392
- currentAllocatedSize 0
  maxThreadgroupMemoryLength 32768
 ```
 
@@ -161,7 +158,6 @@ Using NV Web driver 378.10.10.10.20.107 patched for 10.13.2..
  MTLReadWriteTextureTier1
  areRasterOrderGroupsSupported 0
  registryID 4294968451
- currentAllocatedSize 123736064
  maxThreadgroupMemoryLength 49152
 ```
 
@@ -201,6 +197,5 @@ Using NV Web driver 378.10.10.10.20.107 patched for 10.13.2..
  MTLReadWriteTextureTier2
  areRasterOrderGroupsSupported 1
  registryID 4294968485
- currentAllocatedSize 0
  maxThreadgroupMemoryLength 32768
 ```
