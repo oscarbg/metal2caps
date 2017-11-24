@@ -24,7 +24,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
 -**Read Write Textures** aren't supported on Apple SOCs, discrete desktop GPUs (NV&AMD) support up to Tier1 and Intel IGPUs up to Tier2..</br>
 
 -**Raster Order Groups** are supported right now only on desktop Intel IGPUs (well and A11..) right now..</br>
-at WWDC Metal2 sessions was shared Vega GPUs should expose support for it.. although not yet in 10.13.2 betas..</br>
+at WWDC Metal2 sessions was shared Vega GPUs should expose support for it.. although support for it isn't present yet in 10.13.2 betas..</br>
 also Nvidia Maxwell HW arch should support it so seems a driver limitation..</br>
 
 -**ThreadgroupMemory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
