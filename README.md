@@ -27,7 +27,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
 at WWDC Metal2 sessions was shared Vega GPUs should expose support for it.. although support for it isn't present yet in 10.13.2 betas.. 
 also Nvidia Maxwell HW arch should support it, so it seems a driver limitation..</br>
 
--**ThreadgroupMemory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
+-**Threadgroup memory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
 
 **Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for programmable sample positions and raster order groups..**
 
