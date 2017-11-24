@@ -1,4 +1,4 @@
-### metal2caps
+### Metal2 current GPU support for optional caps
 
 Metal 2 optional features reports of different GPUs (note I also include tesselation support also not a Metal 2 feature)..
 
