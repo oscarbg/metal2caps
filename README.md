@@ -29,7 +29,7 @@ also Nvidia Maxwell HW arch should support it, so it seems a driver limitation..
 
 -**Threadgroup memory** is limited to 16Kbytes on mobile and 32Kbytes on desktop (except Nvidia which exposes up to 48Kbytes)..
 
-##Current unexpected limitations
+## Current unexpected limitations
 
 **Hoping AMD Vega driver exposes support for raster order groups..**
 
