@@ -13,7 +13,7 @@ anyway they are minor revision (graphics features wise) so I don't expect these 
 
 Some comments of the report are:
 
-(so note all my comments regarding Apple SOCs are valid up to A10 SOCs)
+(please note all my comments regarding Apple SOCs are valid up to A10 SOCs)
 
 Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps..
 
