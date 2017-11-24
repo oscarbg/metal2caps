@@ -16,7 +16,7 @@ Changing from Apple A7 to A10X don't expose any changes to Metal2 optional caps.
 
 Ipad Air 1 (2013) A7 GPU
 ========================
-
+---
  Tessellation is not supported on this device
  MTLArgumentBuffersTier1
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 64
@@ -43,10 +43,10 @@ Ipad Air 1 (2013) A7 GPU
  registryID 4294967735
  currentAllocatedSize 262144
  maxThreadgroupMemoryLength 16384
-
+---
 Ipad Pro 10.5 (2017) A10X GPU
 =============================
-
+---
  Tessellation is supported on this device
  MTLArgumentBuffersTier1
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 64
@@ -73,14 +73,14 @@ Ipad Pro 10.5 (2017) A10X GPU
  registryID 4294967844
  currentAllocatedSize 262144
  maxThreadgroupMemoryLength 16384
-
+---
   
 Desktop GPUs (on hackintosh 10.13.2 beta 2)
 ============
 
 AMD RX Vega 56
 ==============
-
+---
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 256
@@ -116,10 +116,10 @@ AMD RX Vega 56
  registryID 4294968392
  currentAllocatedSize 0
  maxThreadgroupMemoryLength 32768
-
+---
 Nvidia Geforce GTX 970 (Maxwell arch) 
 ======================
-
+---
 Using NV Web driver 378.10.10.10.20.107 patched for 10.13.2..
 
  Tessellation is supported on this device
@@ -157,10 +157,10 @@ Using NV Web driver 378.10.10.10.20.107 patched for 10.13.2..
  registryID 4294968451
  currentAllocatedSize 123736064
  maxThreadgroupMemoryLength 49152
-
+---
 Intel HD Graphics 530 (Skylake GPU gen9)
 =====================
-
+---
  Tessellation is supported on this device
  MTLArgumentBuffersTier2
  minimumLinearTextureAlignmentForPixelFormat MTLPixelFormatRGBA8Snorm 256
@@ -196,3 +196,4 @@ Intel HD Graphics 530 (Skylake GPU gen9)
  registryID 4294968485
  currentAllocatedSize 0
  maxThreadgroupMemoryLength 32768
+---
