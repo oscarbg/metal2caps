@@ -1,12 +1,17 @@
 ### metal2caps
 
-Metal 2 optional features reports of different GPUs (note I also include tesselation support also not a Metal 2 feature)..</br>
-These are captured using some lame modifications to a Metal2 Apple sample app so I don't post code right now..</br>
+Metal 2 optional features reports of different GPUs (note I also include tesselation support also not a Metal 2 feature)..
+
+These are captured using some lame modifications to a Metal2 Apple sample app so I don't post code right now..
+
 For GPU gens in Apple SOCs I report first Metal supported GPU Apple A7 and also A10X GPU..</br>
-interesting would be to check on A11 GPUs which should report improved Metal features at least areRasterOrderGroupsSupported should be 1 here..</br>
-I include for desktop reports of GPUs off all the three different existing GPU vendors today..</br>
-note perhaps they aren't their last GPU arch incarnations like I have NV Maxwell GPU (not latest Pascal) and Intel HD530 Skylake (not latest KBL/CFL gen9.5 GPUs)..</br>
-anyway they are minor revision (graphics features wise) so I don't expect to report improved Metal 2 caps..</br>
+interesting would be to check on A11 GPUs which should report improved Metal features at least areRasterOrderGroupsSupported should be 1 here..
+
+I include for desktop reports of GPUs off all the three different existing GPU vendors today..
+
+note perhaps they aren't their last GPU arch incarnations like I have NV Maxwell GPU (not latest Pascal) and Intel HD530 Skylake (not latest KBL/CFL gen9.5 GPUs)..
+
+anyway they are minor revision (graphics features wise) so I don't expect to report improved Metal 2 caps..
 
 Some comments of the report are:
 
