@@ -32,6 +32,7 @@ also Nvidia Maxwell HW arch should support it, so it seems a driver limitation..
 ## Current unexpected limitations
 
 **Hoping AMD Vega driver exposes support for raster order groups..**
+**UPDATE: Since 10.13.4 beta AMD Vega driver exposes support for raster order groups..**
 
 **Hoping Nvidia Web driver can get later in the 10.13.x release cycle support for programmable sample positions and raster order groups..**
 
@@ -137,7 +138,7 @@ also Nvidia Maxwell HW arch should support it, so it seems a driver limitation..
  
  removable 0
  MTLReadWriteTextureTier1
- areRasterOrderGroupsSupported 0
+ areRasterOrderGroupsSupported 1
  registryID 4294968392
  maxThreadgroupMemoryLength 32768
 ```
